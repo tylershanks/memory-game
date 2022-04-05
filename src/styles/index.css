@@ -1,0 +1,45 @@
+html{
+  font-family: sans-serif;
+}
+
+.redBlock{
+  background-color: red;
+  height: 5rem;
+  width: 5rem;
+}
+.orangeBlock{
+  background-color: orange;
+  height: 5rem;
+  width: 5rem;
+}
+.yellowBlock{
+  background-color: yellow;
+  height: 5rem;
+  width: 5rem;
+}
+.greenBlock{
+  background-color: green;
+  height: 5rem;
+  width: 5rem;
+}
+.blueBlock{
+  background-color: blue;
+  height: 5rem;
+  width: 5rem;
+}
+.purpleBlock{
+  background-color: purple;
+  height: 5rem;
+  width: 5rem;
+}
+.blackBlock{
+  background-color: black;
+  height: 5rem;
+  width: 5rem;
+}
+.whiteBlock{
+  background-color: white;
+  border: solid black;
+  height: 5rem;
+  width: 5rem;
+}
