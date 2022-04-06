@@ -2,44 +2,93 @@ html{
   font-family: sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.scoresContainer {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.currentScoreBox {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.currentScore {
+  margin-left: 5px;
+}
+.highScoreBox {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+.highScore {
+  margin-left: 5px;
+}
+
+
+.blockContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
 .redBlock{
   background-color: red;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .orangeBlock{
   background-color: orange;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .yellowBlock{
   background-color: yellow;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .greenBlock{
   background-color: green;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .blueBlock{
   background-color: blue;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .purpleBlock{
   background-color: purple;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .blackBlock{
   background-color: black;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
 .whiteBlock{
-  background-color: white;
-  border: solid black;
+  background-color: gray;
   height: 5rem;
   width: 5rem;
+  margin: 1rem;
 }
